@@ -28,7 +28,7 @@ console.log(i);
 //    - QUESTION: Which part of the example loop do you need to change to do this?
 //    - ANSWER:change starting value to i=2 and change i++ to i=i+2
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-for (let i=2; i<11; i=i+2) {
+for (let i=2; i<11; i+=2) {
   console.log(i);
 }
 
@@ -45,8 +45,8 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
-for (name of stars) {
-  console.log(name);
+for (let star of stars) {
+  console.log(star);
 }
 
 // 3. While loops
